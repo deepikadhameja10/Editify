@@ -10,7 +10,10 @@
 
 
 <br>
+
 ## **Features**
+
+<br>
 
 1)Background Removal: Automatically remove the background from your images.
 
