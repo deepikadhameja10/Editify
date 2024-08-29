@@ -37,7 +37,7 @@ function ImageUpload() {
 
         if (backgroundColor.includes("url")) {
           const backgroundImage = new Image();
-          backgroundImage.src = backgroundColor.split("url(")[1].split(")")[0];
+          backgroundImage.src = backgroundColor.split("url('")[1].split("')")[0];
           backgroundImage.onload = () => {
             ctx.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
             drawImageOnCanvas(img, canvas, ctx);
