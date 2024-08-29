@@ -1,0 +1,211 @@
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  background: linear-gradient(to right, rgb(130, 15, 15), rgb(71, 2, 71));
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.image-upload-container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+  max-width: 1000px;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+}
+
+.editor {
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-right: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.toolbar {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.toolbar-item {
+  width: 100%;
+  font-size: medium;
+  background-color: #ff4800;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.color-picker {
+  margin-bottom: 20px;
+}
+
+.color-options {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.color-circle,
+.image-circle {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 5px;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+}
+
+.image-area {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 300px; 
+  background-size: contain;
+  background-position: center;
+  object-fit: fill;
+  background-repeat: no-repeat;
+  overflow: hidden; 
+  border: 3px dashed #3e3c3c;
+  border-radius: 10px;
+  position: relative;
+}
+
+.img-display {
+  background-repeat: no-repeat;
+  max-width: 100%; 
+  max-height: 100%; 
+  object-fit: contain; 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+}
+
+.download-button-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.download-button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  font-size: larger;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.sidebar {
+  flex: 1;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: #f9f9f9;
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border-radius: 10px;
+}
+
+h3 {
+  margin-bottom: 20px;
+}
+
+
+.dpmain {
+  overflow: hidden;
+  border-radius: 50%;
+}
+.dp {
+  height: 12rem;
+  transform: scale(1.2);
+  width: 12rem;
+}
+.logo{
+  margin-bottom: 2rem;
+}
+.niftel{
+  height: 3.6rem;
+  transform: scale(1.2);
+  width: 9rem;
+}
+
+.dp:hover {
+  transform: scale(1.4);
+  transition: 0.6s ease-in-out;
+}
+
+.upload-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.upload-button:hover {
+  background-color: #28a745;
+  transform: scalex(1.1);
+  transition: all 0.3s;
+}
+
+.links {
+  position: relative;
+  bottom: 10px;
+  font-size: smaller;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 5rem;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  margin-left: 10px;
+}
+
+
+.image-area {
+  position: relative;
+  /* Other styling */
+}
+
+.static-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 0;
+  transform: translate(-50%, -50%);
+  width: 40%; /* Adjust as needed */
+  height: 60%; /* Adjust as needed */
+}
