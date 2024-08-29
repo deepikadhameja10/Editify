@@ -1,4 +1,4 @@
-![Background Remover](https://raw.githubusercontent.com/nadermx/backgroundremover/main/examplefiles/backgroundremoverexample.png)
+![Background Remover](https://github.com/deepikadhameja10/Editify/blob/main/public/Screenshot%202024-08-29%20111604.png?raw=true)
 <img alt="background remover video" src="https://raw.githubusercontent.com/nadermx/backgroundremover/main/examplefiles/backgroundremoverprocessed.gif" height="200" /><br>
 ****
 **Features:**
