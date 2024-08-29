@@ -18,7 +18,8 @@
 3)*SCSS*: A CSS preprocessor that allows for variables, nested rules, and more, making CSS easier to maintain.<br>
 4)*React.js:* A JavaScript library for building user interfaces, enabling dynamic and interactive web pages.<br>
 
-***Backend-**<*br>
+**Backend-***
+<br>
 
 1)*Express:* A minimal and flexible Node.js web application framework that provides a robust set of features for web and mobile applications.<br>
 2)*Multer:* A Node.js middleware for handling multipart/form-data, primarily used for uploading files.<br>
@@ -28,10 +29,11 @@
 
 ### Installation Requirements
 
-***Prerequisites**<br>
+***Prerequisites**
+<br>
 	  Node.js and npm installed on your local machine.
 
-***Setup**
+***Setup***
 	  Clone the repository:<br>
 	 bash
 	copy code
