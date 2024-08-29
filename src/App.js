@@ -72,7 +72,7 @@ function ImageUpload() {
     const response = await fetch("https://api.remove.bg/v1.0/removebg", {
       method: "POST",
       headers: {
-        "X-Api-Key": "7ttXgVZz8DiAWkP9F14CwD4j",
+        "X-Api-Key": "Jtb5ksUJ2aPNp97ae93rQ5hW",
       },
       body: formData,
     });
