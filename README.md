@@ -1,6 +1,7 @@
-![Background Remover](https://github.com/deepikadhameja10/Editify/blob/main/public/Screenshot%202024-08-29%20111604.png?raw=true)
-![Background Remover](https://raw.githubusercontent.com/deepikadhameja10/Editify/main/public/product-image-one.webp)
-![Background Remover](https://github.com/deepikadhameja10/Editify/blob/main/public/product-image-one-Photoroom.png?raw=true)
+![Background Remover](https://github.com/deepikadhameja10/Editify/blob/main/public/Screenshot%202024-08-29%20111604.png?raw=true | width=300)
+![Background Remover](https://raw.githubusercontent.com/deepikadhameja10/Editify/main/public/product-image-one.webp | width=300)
+![Background Remover](https://github.com/deepikadhameja10/Editify/blob/main/public/product-image-one-Photoroom.png?raw=true | width=300)
+
 <br>
 ****
 **Features:**
